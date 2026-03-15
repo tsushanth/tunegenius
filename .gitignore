@@ -1,0 +1,30 @@
+# Xcode
+*.xcuserstate
+*.xccheckout
+xcuserdata/
+*.xcworkspace/xcuserdata/
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# SPM resolved (commit if needed)
+# Package.resolved
