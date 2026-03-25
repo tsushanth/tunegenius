@@ -132,7 +132,7 @@ final class StoreKitManager {
         purchasedIDs = ids
     }
 
-    private func verified<T>(_ result: VerificationResult<T>) throws -> T {
+    nonisolated private func verified<T>(_ result: VerificationResult<T>) throws -> T {
         switch result {
         case .unverified: throw TGStoreError.verificationFailed
         case .verified(let v): return v

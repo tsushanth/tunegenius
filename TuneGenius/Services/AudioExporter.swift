@@ -111,7 +111,7 @@ final class AudioExporter {
         )
         try engine.start()
 
-        playerNode.scheduleFile(file, at: nil)
+        await playerNode.scheduleFile(file, at: nil)
         playerNode.play()
 
         // AVAudioFile for writing

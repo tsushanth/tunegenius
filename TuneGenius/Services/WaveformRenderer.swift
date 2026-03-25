@@ -24,7 +24,7 @@ final class WaveformRenderer {
         isLoading = false
     }
 
-    private static func extractSamples(url: URL, targetCount: Int) -> [Float] {
+    nonisolated private static func extractSamples(url: URL, targetCount: Int) -> [Float] {
         guard let file = try? AVAudioFile(forReading: url) else { return [] }
 
         let format = AVAudioFormat(
