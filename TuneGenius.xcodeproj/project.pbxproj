@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		033DD522214B9706C8304B6D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA2CA1298721BEB00E356E /* PlayerView.swift */; };
-		17AA36CEC4127A7841F00911 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F224ECBCD6FB8EF3731A9107 /* GoogleService-Info.plist */; };
 		1E05E551E79062CF189D1C95 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46CADDD17F327DCD4BD284A /* StoreKitManager.swift */; };
 		2294489E45CF01693C8727EB /* EditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C591429A3F653493C57FBD3 /* EditorViewModel.swift */; };
 		249970B9F9D8526AAAA82C59 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CE66FC57E12AEDA392085E /* LibraryViewModel.swift */; };
@@ -27,7 +26,6 @@
 		A49FE64D8D555D17E6601AF0 /* LoopMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C60C67481D3F2EAB3D0692 /* LoopMarker.swift */; };
 		B202C93DE2DF583515BC4C6A /* PitchShifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2188CBC29709D04CB59F9A54 /* PitchShifter.swift */; };
 		B226DCA8CA4115854A799343 /* WaveformRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2294ED46955902B808EAF4 /* WaveformRenderer.swift */; };
-		B6D26F89B0CE14B49571387D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF95FBCE28FB2B2A6D6B8F7D /* HomeView.swift */; };
 		B9BE0CA7A21D4D7DB640E773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB224B0040C24215A1A6F70F /* Assets.xcassets */; };
 		C1ED96F3BBBFF9B6DFDDEAB5 /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A510D082E1D51FF8C421650A /* ExportView.swift */; };
 		CDA450B5A10884ADCD1F2994 /* TuneGeniusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4EE8190AE1820FEE3242D6 /* TuneGeniusApp.swift */; };
@@ -55,7 +53,6 @@
 		A66FA59947C083386DEDAB34 /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
 		A7A6EFBBFE8D4DE98E00621A /* LoopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopControlView.swift; sourceTree = "<group>"; };
 		AB23353D01237B3AEE327CDA /* AudioEngineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngineService.swift; sourceTree = "<group>"; };
-		AF95FBCE28FB2B2A6D6B8F7D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B02B9BCA89E15CFC0628639E /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
 		B1899938F53BA90C19178A3D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B54D1DEE0082CDB3E593C2EF /* TempoChanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoChanger.swift; sourceTree = "<group>"; };
@@ -70,7 +67,6 @@
 		E4353A5E2FD5478C10B88B4B /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
 		E46CADDD17F327DCD4BD284A /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
 		E7D66348D51C1219A7B55D3E /* TempoControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoControlView.swift; sourceTree = "<group>"; };
-		F224ECBCD6FB8EF3731A9107 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F852B6197A78BBCB37433EA9 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		FB224B0040C24215A1A6F70F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,8 +151,7 @@
 		D778815D691A486EF850AB00 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AF95FBCE28FB2B2A6D6B8F7D /* HomeView.swift */,
-				CDCA2CA1298721BEB00E356E /* PlayerView.swift */,
+					CDCA2CA1298721BEB00E356E /* PlayerView.swift */,
 				A66FA59947C083386DEDAB34 /* WaveformView.swift */,
 				DE1176464A7E3F511EE16818 /* PitchControlView.swift */,
 				E7D66348D51C1219A7B55D3E /* TempoControlView.swift */,
@@ -176,8 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				8DCEC9D2D1944E282FB5478F /* Info.plist */,
-				F224ECBCD6FB8EF3731A9107 /* GoogleService-Info.plist */,
-			);
+				);
 			path = Resources;
 			sourceTree = "<group>";
 		};
@@ -231,8 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17AA36CEC4127A7841F00911 /* GoogleService-Info.plist in Resources */,
-				B9BE0CA7A21D4D7DB640E773 /* Assets.xcassets in Resources */,
+					B9BE0CA7A21D4D7DB640E773 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +251,7 @@
 				8392220E9DD815FFD33AA34D /* PlayerViewModel.swift in Sources */,
 				2294489E45CF01693C8727EB /* EditorViewModel.swift in Sources */,
 				249970B9F9D8526AAAA82C59 /* LibraryViewModel.swift in Sources */,
-				B6D26F89B0CE14B49571387D /* HomeView.swift in Sources */,
-				033DD522214B9706C8304B6D /* PlayerView.swift in Sources */,
+					033DD522214B9706C8304B6D /* PlayerView.swift in Sources */,
 				466C543DB404130A5BBD72F8 /* WaveformView.swift in Sources */,
 				668D72E1403CAFED9FAEB630 /* PitchControlView.swift in Sources */,
 				32A0AA68C6BB8DB4DDA9ECEE /* TempoControlView.swift in Sources */,
@@ -317,7 +309,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,7 +352,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
